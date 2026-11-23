@@ -1,0 +1,11 @@
+{
+  "name": "addrscan",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22.9" },
+  "scripts": {
+    "start": "node --env-file-if-exists=.env server.js",
+    "smoke": "node --env-file-if-exists=.env server.js --smoke",
+    "nfts": "node --env-file-if-exists=.env alchemy-nfts.js"
+  }
+}
